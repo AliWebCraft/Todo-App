@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .circle-btn {
+    @apply rounded-full w-[21px] h-[21px] text-sm md:text-[16px] flex items-center justify-center;
+  }
+  .drop-css {
+    @apply pt-1 pb-1 hover:bg-pink-200 pl-2 flex items-center;
+  }
+}
+
+
+/* Scroll bar */
+::-webkit-scrollbar {
+  width: 10px; /* Width of the entire scrollbar */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: linear-gradient(to right, #984848, #d498ad); /* Track color gradient */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ff00cc; /* Color of the scroll thumb */
+  border-radius: 10px; /* Rounded corners of the thumb */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #81ecec; /* Color when hovering over the thumb */
+}
+
