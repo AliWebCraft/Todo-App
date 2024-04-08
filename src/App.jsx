@@ -127,7 +127,7 @@ function App() {
       <div className="Logo select-none flex pt-5 justify-center font-bold text-2xl gap-2 ">
         <span className='rounded-[50%] text-center w-[32px] h-[32px] bg-black text-white'>&#x2713;</span> <span>Todo App</span>
       </div>
-      <div className="Body pt-10 md:m-auto w-[55%] pb-32">
+      <div className="Body pt-10 md:m-auto w-[97%] md:w-[55%] pb-32">
         <div className="Tasks mt-6">
           <div className='flex justify-between'>
             <span className='text-2xl ml-[2.5vw] md:ml-0 font-bold select-none'>Tasks</span>
