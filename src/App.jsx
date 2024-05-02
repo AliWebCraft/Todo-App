@@ -129,7 +129,7 @@ function App() {
       </div>
       <div className="Body pt-10 md:m-auto w-[97%] md:w-[55%] pb-32">
         <div className="Tasks mt-6">
-          <div className='flex justify-between'>
+          <div className='flex justify-between '>
             <span className='text-2xl ml-[2.5vw] md:ml-0 font-bold select-none'>Tasks</span>
             <div className='flex gap-2 mt-[6px]'>
               <span className='text-sm font-bold mt-[1px]'>Show Finished</span>
